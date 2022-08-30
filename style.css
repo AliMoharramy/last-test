@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Oldenburg&family=Rubik+Glitch&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #0d0d0d;
+}
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+h2 {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+header {
+  display: flex;
+  min-height: 10vh;
+}
+.header-nav {
+  display: flex;
+  flex: 0 1 20%;
+  justify-content: space-evenly;
+  margin: 2rem;
+  font-family: "Rubik Glitch", cursive;
+}
+.logo-container {
+  flex: 0 1 80%;
+  margin: 2rem;
+}
+.logo {
+  background-color: #f2f2f2;
+  display: inline;
+  padding: 0.6rem 0.9rem;
+  font-size: 1.5rem;
+  border-radius: 100%;
+  font-family: "Oldenburg", cursive;
+}
+/* HOME */
+#home {
+  min-height: 90vh;
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+.home_img {
+  flex: 0 1 50%;
+  position: relative;
+}
+.home_info {
+  flex: 0 1 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.home-info_container {
+  width: 60%;
+}
+.home_name {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Rubik Glitch", cursive;
+}
+.image {
+  width: 100%;
+}
+.home_info h2 {
+  font-size: 4.5rem;
+}
+.home_info h3 {
+  font-size: 2.5rem;
+  margin: 1rem 0rem;
+}
+.home_info span {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+  padding: 0.3rem 0.4rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  font-family: "Rubik Glitch", cursive;
+}
+.home_discription {
+  font-size: 1.8rem;
+  margin-top: 5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+/* ABOUT */
+#about {
+  min-height: 100vh;
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.about_me {
+  flex: 0 1 50%;
+  justify-content: center;
+}
+.education {
+  flex: 0 1 50%;
+  font-family: "Lexend Deca", sans-serif;
+}
+.education_container {
+  width: 50%;
+  margin: auto;
+}
+.education p.ltp {
+  margin-bottom: 5rem;
+}
+.ltp {
+  color: #f2bb16;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+.education_uni {
+  display: flex;
+  margin: 3rem 0rem;
+}
+.education_school {
+  display: flex;
+}
+.place_title {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-size: 1.8rem;
+}
+.about_discription {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  width: 80%;
+  font-family: "Lexend Deca", sans-serif;
+}
+.period {
+  color: #f2bb16;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/* SKILLS & CONTACT */
+#skills {
+  min-height: 100vh;
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.coding_skill {
+  flex: 0 1 50%;
+}
+.coding_skill p.ltp {
+  margin-bottom: 2rem;
+}
+.skill_items {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Lexend Deca", sans-serif;
+}
+.skill_item {
+  flex: 0 1 50%;
+  margin-top: 5rem;
+}
+.skill_item p {
+  width: 80%;
+  font-size: 1.1rem;
+}
+.skill_title {
+  color: #f2bb16;
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+.contact_container p.ltp {
+  margin-bottom: 5rem;
+}
+.contact {
+  flex: 0 1 50%;
+  margin: 10rem 0rem;
+}
+.contact_container {
+  width: 50%;
+  margin: auto;
+}
+.contact_info {
+  font-family: "Lexend Deca", sans-serif;
+}
+.contact_items {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+  margin: 2rem 0rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.contact_items i,
+.contact_items p {
+  display: inline;
+  font-size: 1.1rem;
+}
+.contact_items i {
+  margin-right: 1rem;
+}
+.contact_items:hover {
+  color: #f2f2f2;
+  background-color: #0d0d0d;
+  border: 2px solid #f2f2f2;
+}
+.contact_social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.contact_social i {
+  font-size: 2rem;
+  color: #f2f2f2;
+}
+.contact_social a :hover {
+  color: #f2bb16;
+}
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 750px) {
+  .header-nav {
+    flex: 0 1 50%;
+  }
+  .logo-container {
+    flex: 0 1 50%;
+  }
+  #home {
+    flex-direction: column;
+  }
+  .home_name {
+    top: 50%;
+    left: 20%;
+  }
+  .home_info {
+    padding: 10rem 0rem;
+  }
+  #about {
+    flex-direction: column;
+  }
+  .about_me {
+    text-align: center;
+  }
+  .education_container {
+    margin: 15rem 0rem;
+  }
+  .about_discription {
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    width: 100%;
+  }
+  .education_container {
+    width: 100%;
+    text-align: center;
+  }
+  #skills {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact_container {
+    width: 100%;
+    margin: auto;
+  }
+  .home-info_container {
+    width: 90%;
+  }
+  .about_me {
+    margin-top: 5rem;
+  }
+  .period {
+    font-size: 1rem;
+  }
+  .header-nav {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 90%;
+  }
+  .period {
+    font-size: 1rem;
+  }
+  .header-nav {
+    font-size: 1.3rem;
+  }
+  .contact_container {
+    width: 80%;
+  }
+  .contact {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home_name {
+    top: 50%;
+    left: 15%;
+    font-size: 3.3rem;
+  }
+  .header-nav {
+    font-size: 0.8rem;
+  }
+  .home_discription,
+  .about_discription {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  .contact {
+    width: 100%;
+  }
+}
